@@ -23,6 +23,8 @@ body {
   
 h1 {
     display: inline-block;
+    line-height: 50px;
+    font-size: 60px;
 }
 
 .bottom-links {
@@ -30,7 +32,7 @@ h1 {
     bottom: 40px;
 }
   
-a {
+.left-column a {
     color: #fff;
 }
 .x {
@@ -55,19 +57,56 @@ a {
 .form-row {
     display: block;
     text-transform: uppercase;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: px;
+    padding-bottom: 10px;
+    line-height: 40px;
 }
 
 .label {
     display: block;
     font-size: 14px;
-    padding-bottom: 20px;
 }
 
 .input {
     display: block;
     border: none;
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1px solid rgb(207, 202, 202);
     width: 360px;
+    font-size: 20px;
+    line-height: 40px;
 }
+
+::placeholder {
+    color: lightgray;
+    font-style: italic;
+}
+
+.bottom-row {
+    margin-top: 40px;
+}
+
+.bottom-row span {
+    line-height: 40px;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.bottom-row a {
+    color: #1049b3;
+    line-height: 40px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.button {
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 40px;
+    font-size: 20px;
+    background: rgb(56, 56, 233);
+    color: #fff;
+    border-radius: 20px;
+    box-shadow:0px 5px 10px 0px grey;
+    margin-right: 20px;
+}
+
