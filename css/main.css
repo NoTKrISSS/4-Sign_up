@@ -18,12 +18,16 @@ body {
     margin-top: 35px;
     background-color: #3f52b2;
     color: #fff;
+    position: relative;
 }
   
 h1 {
+    display: inline-block;
 }
-.bottom-links {
 
+.bottom-links {
+    position:absolute;
+    bottom: 40px;
 }
   
 a {
@@ -47,4 +51,23 @@ a {
     padding: 60px;
     background-color: #fff;
     position: relative;
+}
+.form-row {
+    display: block;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.label {
+    display: block;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.input {
+    display: block;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    width: 360px;
 }
