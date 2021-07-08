@@ -72,7 +72,7 @@ form > .form-row .span {
     font-size: 17px;
 }
 
-form > .form-row .sign-in {
+form > .form-row .last-link {
     display: inline-block;
     line-height: 26px;
     padding: 5px;
@@ -82,6 +82,6 @@ form > .form-row .sign-in {
     font-size: 17px;
 }
 
-form > .form-row .sign-in:hover {
+form > .form-row .last-link:hover {
     text-decoration: underline;
 }
