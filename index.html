@@ -7,44 +7,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up</title>
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/form.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
+    <div class="background"></div>
     <main class="container">
-        <!-- LEFT COLUMN -->
         <div class="left-column">
             <h1 class="main-title">Sign up</h1>
-            <div class="bottom-links">
+            <div class="bottom-texts">
                 <a href="#">Privacy policy</a>
                 <span>&amp;</span>
-                <a href="#">terms of service</a>
+                <a href="#">Terms of service</a>
             </div>
         </div>
 
-        <!-- RIGHT COLUMN -->
         <div class="right-column">
             <div class="x">&#x2573;</div>
             <form>
                 <div class="form-row">
-                    <label class="label" for="">Username</label>
-                    <input class="input" type="text" placeholder="Your username" required>
+                    <label class="label" for="username">Username</label>
+                    <input class="input" id="username" type="text" placeholder="Your username" required>
                 </div>
                 <div class="form-row">
-                    <label class="label" for="">Email</label>
-                    <input class="input" type="email" placeholder="Email" required>
+                    <label class="label" for="email">Email</label>
+                    <input class="input" id="email" type="email" placeholder="Email" required>
                 </div>
                 <div class="form-row">
-                    <label class="label" for="">Password</label>
-                    <input class="input" type="password" placeholder="Your password" required>
+                    <label class="label" for="password">Password</label>
+                    <input class="input" id="password" type="password" placeholder="Your password" required>
                 </div>
                 <div class="form-row">
-                    <label class="label" for="">Repeat password</label>
-                    <input class="input" type="password" placeholder="Repeat your password" required>
+                    <label class="label" for="repass">Repeat password</label>
+                    <input class="input" id="repass" type="password" placeholder="Repeat your password" required>
                 </div>
-                <div class="bottom-row">
-                    <button class="button">Get started</button>
-                    <span>or</span>
+                <div class="form-row">
+                    <button type="submit" class="button">Get started</button>
+                    <span class="span" >or</span>
                     <a class="sign-in" href="./sign-in/">Sign in</a>
                 </div>
             </form>
